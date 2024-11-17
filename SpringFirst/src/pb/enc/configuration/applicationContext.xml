@@ -10,4 +10,11 @@
         <property name="roll" value="30" />
         <property name="email" value="touhidul@mail.com" />
     </bean>
+    
+    <bean id="main_student_2" class="pb.enc.studenthome.Student">
+        <property name="name" value="Touhidul Islam 2" />
+        <property name="roll" value="32" />
+        <property name="email" value="touhidul2@mail.com" />
+    </bean>
+    
 </beans>

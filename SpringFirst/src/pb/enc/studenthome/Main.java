@@ -15,11 +15,13 @@ public class Main {
 
 	        // Get the User bean from the context
 	        Student student = (Student) context.getBean("main_student");
-
+	        Student student1 = (Student) context.getBean("main_student_2");
 	        // Print user details
 	        System.out.println(student);
 	        System.out.println(student.getName());
-
+	        
+	        System.out.println(student1);
+	        System.out.println(student1.getName());
 	}
 
 }
