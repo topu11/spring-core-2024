@@ -1,0 +1,2 @@
+1. DataIntegrityViolationException e (Used in insert operation)
+2. EmptyResultDataAccessException e) (used in select operation) 
